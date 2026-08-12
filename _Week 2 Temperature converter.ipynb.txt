@@ -1,0 +1,101 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPeixd/cq3qF/T8TBbj1JKK",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/taliajamal-python/1st-python-project-simple-calculator/blob/main/%20Week%202%20Temperature%20converter.ipynb\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 3,
+      "metadata": {
+        "id": "ll522UePtxyp"
+      },
+      "outputs": [],
+      "source": [
+        "# week 2 project\n",
+        "## temperature converter"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(\"===== TEMPERATURE CONVERTER =====\")\n",
+        "\n",
+        "celsius = float(input(\"Enter temperature in Celsius: \"))\n",
+        "\n",
+        "fahrenheit_answer = (celsius * 9 / 5) + 32\n",
+        "\n",
+        "print(celsius, \"Celsius is equal to\", fahrenheit_answer, \"Fahrenheit\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "xeOh3zXvu9uT",
+        "outputId": "a075af64-e807-439e-9030-532f2ecbe53b"
+      },
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "===== TEMPERATURE CONVERTER =====\n",
+            "Enter temperature in Celsius: 23\n",
+            "23.0 Celsius is equal to 73.4 Fahrenheit\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "fahrenheit = float(input(\"Enter temperature in Fahrenheit: \"))\n",
+        "\n",
+        "celsius_answer = (fahrenheit - 32) * 5 / 9\n",
+        "\n",
+        "print(fahrenheit, \"Fahrenheit is equal to\", celsius_answer, \"Celsius\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "4Gs4I-r1vU27",
+        "outputId": "99d7e135-6cc1-47d2-917a-054f771639cb"
+      },
+      "execution_count": 4,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter temperature in Fahrenheit: 45\n",
+            "45.0 Fahrenheit is equal to 7.222222222222222 Celsius\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
